@@ -1,1 +1,40 @@
 @charset "UTF-8";
+
+.header {
+  width: 100%;
+  background: #388bff;
+  position: fixed;
+}
+
+.inner {
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.shop-logo {
+  font-size: 24px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.shop-logo a {
+  color: #f2ff7b;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav li {
+  padding: 30px;
+  list-style: none;
+}
+
+li a {
+  color: #ffffff;
+}
+
+a {
+  text-decoration:none;
+}
